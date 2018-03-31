@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Długo jeszcze?</string>
+    <string name="remaining_time">Pozostały czas</string>
+    <string name="default_time">0 dni 0 godzin 0 minut 0 sekund</string>
+</resources>
