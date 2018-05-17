@@ -25,9 +25,10 @@ public class MainActivity extends AppCompatActivity {
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
 
-        TextView txtRemained= (TextView) findViewById(R.id.txtViewRemainingTime);
+        /*
+        TextView txtRemained= findViewById(R.id.txtViewRemainingTime);
         txtRemained.setText(R.string.default_time);
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+*/
 
     }
     private void setDate(){
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         long minutes = seconds / 60;
         long hours = minutes / 60;
         long days = hours / 24;
-        TextView txtRemained= (TextView) findViewById(R.id.txtViewRemainingTime);
+        TextView txtRemained= findViewById(R.id.txtViewRemainingTime);
         txtRemained.setText(days + " days " + hours + " hours " + minutes + " minutes");
     }
 }
